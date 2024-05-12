@@ -3,65 +3,155 @@
 <head>
 <meta charset="UTF-8">
 <title>Silva Jael</title>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+          
+        }
+    th{
+    background-color: pink;
+    }
+    
+    a{
+    color: #EC949D;
+    }
+ </style>
 </head>
+<body>
 <header>
-<h1>Programacion Visual</h1>
+<h1 style="text-align:center">Programacion Visual</h1> 
 </header>
-<nav>
-	<ul>
-		<li><a href="">Inicio</a></li>
-		<li><a href="">Java</a></li>
-		<li><a href="">Contacto</a></li>
-	</ul>
-</nav>
+  <nav style="text-align:center">
+    <a style="color: #EC949D" class="active" href="#home">Introduccion Java</a>
+    <a style="color: #EC949D" href="#section">Programacion Java</a>
+    <a style="color: #EC949D" href="#Interfaces">Interfaces</a>
+    <a style="color: #EC949D" href="#about">HTML</a>
+  </nav>
+
+
 <main>
 	<section>
-	<h2>Section h2</h2>
-	<h3>Section h3</h3>
-	<p>parrafo</p>
+	<h2 style="background-color:#FFB6C1">Introduccion a Java</h2>
+    <p>Java es una tecnología que incluye un lenguaje de programación de alto nivel y una plataforma de desarrollo. Fue desarrollado originalmente por James Gosling y se publicó como un componente fundamental de la plataforma Java de Sun Microsystems. </p>
+      
+      <h4>Caracteristicas principales del lenguaje de programacion Java:
+</h4>
+      <ul>
+        <li><strong>Orientado a objetos:</strong>
+Java sigue el paradigma “Todo es un objeto”. Todo el código del programa y los datos residen dentro de objetos y clases. Esto facilita la organización y gestión del código.</li>
+        <li><strong>Distribuido:</strong>Java admite la computación distribuida a través de sus sólidas capacidades de redes. Permite la comunicación entre diferentes máquinas a través de una red.</li>
+        <li><strong>Robusto:</strong>
+Java enfatiza la comprobación de tipos fuertes, el manejo de excepciones y la gestión de memoria. Esto ayuda a prevenir errores de programación comunes y garantiza aplicaciones estables.</li>
+        <li><strong>Independiente de las arquitecturas:</strong>JEl código Java puede ejecutarse en cualquier plataforma con una Máquina Virtual de Java (JVM). Esta independencia de plataforma es una ventaja significativa.</li>
+        <li><strong>Interpretado:</strong>El código Java se compila en bytecode, que luego es interpretado por la JVM. Esto permite la independencia de plataforma y la ejecución dinámica.</li>
+        <li><strong>Seguro:</strong>Java proporciona funciones de seguridad integradas, como la capacidad de ejecutar código en un entorno aislado (sandbox). También admite cifrado y autenticación.</li>
+        <li><strong>Portable:</strong>Los programas Java se pueden compilar en bytecode, que puede ejecutarse en cualquier JVM. Esta portabilidad permite a los desarrolladores escribir código una vez y ejecutarlo en cualquier lugar.</li>
+       
+      </ul>
+      
+      
+	<h3><em>La plataforma Java</em></h3>
+	<p>Por definición, una plataforma es el entorno hardware o software sobre el cual se puede ejecutar un programa.
+Las plataformas actuales suelen ser una combinación de un sistema operativo y su hardware subyacente;por ejemplo, un pc con su 
+sistema operativo Windowsse denomina comúnmente plataforma Windows,
+      </p>
+      <p>La plataforma Java es diferente ya que es una plataforma de software que se ejecuta sobre las prestaciones proporcionadas por otra plataforma (la plataforma base) que gestiona el hardware. Esto significa que se puede montar la plataforma Java sobre cualquier plataforma base.</p>   
+     <h4>Componentes Principales de la Plataforma Java:
+</h4>
+      <ul>
+        <li><strong>Máquina Virtual de Java (JVM):</strong>
+La JVM es un intérprete que en lugar de traducir código fuente, traduce un tipo de código llamado <strong>bytecode</strong> al código máquina de la plataforma base al momento de ejecutar la aplicación.</li>
+        <li><strong>Interfaz de Programación de Aplicaciones Java (Java API):</strong>
+La API Java es una colección de componentes de software que proporciona muchas capacidades útiles para el desarrollador y está agrupada en bibliotecas conformadas por clases e interfaces.</li>
+	</ul>
+       <br>
+      
+      
 	</section>
 	<section>
-	<h2>Section h2</h2>
-	<h3>Section h3</h3>
-	<ol>
-		<li>holi</li>
-		<li>holaa</li>
-		<li>holu</li>
-	
-	</ol>
+	<h2 style="background-color:#FFB6C1;"> Programacion Java</h2>
+      <p>Para programar en java necesitas saber algunos conceptos basicos como qué son los objetos, clases, modificadores de acceso, etc. A continuacion explicaremos brevemente cada uno de ellos:3</p>
+      <h3>Objeto</h3>
+      <p>Un objeto es un elemento de software que representa algo del mundo real.Tiene propiedades (variables) y comportamiento (métodos). Por ejemplo: Un televisor con estados como “encendido”, “apagado” y acciones como “cambiar de canal”.</p>
+      <h3>Clase</h3>
+      <p>En Java, una clase es un modelo o plantilla que se utiliza para crear objetos. Las clases definen las propiedades y comportamientos de un objeto. Para entenderlo mejor, piensa en una clase como un molde o plantilla que puedes usar para fabricar múltiples objetos similares. Cada objeto creado a partir de una clase tiene sus propios valores específicos para las propiedades, pero comparte la misma estructura y comportamientos definidos por la clase.</p>
+      <h4>Herencia</h4>
+      <p>Permite crear nuevas clases basadas en clases existentes.
+Una clase derivada (subclase) hereda propiedades y comportamiento de una clase base (superclase).</p>
+      <h3>Tipos de datos primitivos y de referencia</h3>
+      <p>Los <b>tipos de datos primitivos</b> representan valores simples y se utilizan para almacenar datos básicos. No son objetos y no tienen métodos asociados. Ej: int, float, boolean, etc. Los <b>tipos de datos de referecia</b> representan objetos más complejos y se basan en clases o interfaces definidas por el usuario. Tienen métodos y pueden ser utilizados para crear estructuras de datos más elaboradas. Ej: un objeto.</p>
+      <h3>Modificadores de acceso</h3>
+      <p>Los modificadores de acceso en Java son palabras clave que controlan el alcance y la visibilidad de los miembros (atributos, métodos y constructores) de una clase. Estos modificadores determinan quién puede acceder a qué partes de una clase. En Java, existen cuatro modificadores de acceso:<strong>public, private, protected, default</strong></p>
+      <h4>Estructuras de control</h4>
+      <p>Utilizamos condicionales (if, else, switch) y bucles (for, while) para controlar el flujo del programa.</p>
+      <h4>Arreglos y colecciones</h4>
+      <p></p>	
+   <br>
 	</section>
 	
 	<section>
-	<h2>Section h2</h2>
-	<h3>Section h3</h3>
+	<h2 style="background-color:#FFB6C1">Interfaces</h2>
+      <p> En el tema dedicado a la <a style="color:pink" href="https://puntocomnoesunlenguaje.blogspot.com/2014/07/herencia-en-java.html">herencia</a> en Java se explica el concepto de clase abstracta. Una clase que contenga un método abstracto se debe declarar como abstracta. También sabemos que una clase abstracta puede contener atributos, constructores y métodos no abstractos. </p> <div class="gris" style="color:grey;">De una clase abstracta no se pueden crear objetos y su finalidad es ser la base para construir la jerarquía de herencia entre clases y aplicar el polimorfismo.</div>
+<p>Llevando estos conceptos un poco más allá aparece en concepto de Interface. 
+Podemos considerar una interface como una clase que sólo puede contener: <b>metodos abstractos y atributos constantes.</b></p>
+      <p>Explicándolo de una manera simple, implementar una interface sería equivalente a copiar y pegar el código de la interface dentro de la clase. Cuando una clase implementa una interface está <b>obligada a implementar todos los métodos abstractos</b> que contiene ya que de otra forma debería declararse como <a style="color:pink;" href="https://puntocomnoesunlenguaje.blogspot.com/201S4/07/herencia-en-java.html">clase abstracta</a>.</p>
+	<h3>Cuadro comparatibo entre una interfaz y una calse abstracta </h3>
 		<table>
    		 <tr>
-      	 	 <th>Encabezado 1</th>
-      		  <th>Encabezado 2</th>
+      	 	 <th>Aspecto</th>
+      		  <th>Clase Abstracta</th>
+           <th>Interfaz</th>
    		 </tr>
    		 <tr>
-       		 <td>Dato 1</td>
-        	<td>Dato 2</td>
+       		 <th>Definicion</th>
+        	<td>Una clase abstracta es una clase común con al menos un método abstracto.</td>
+          <td>Una interfaz define solo la firma de los métodos (sin cuerpo).</td>
+    	</tr>
+          <tr>
+       		 <th>Herencia</th>
+        	<td>Una clase puede extender solo una clase abstracta.</td>
+          <td>Una clase puede implementar múltiples interfaces.</td>
+    	</tr>
+          <tr>
+       		 <th>Implementacion</th>
+        	<td>Puede contener atributos, métodos, constructores y al menos un método abstracto</td>
+          <td>Solo declara métodos abstractos, sin implementación.</td>
+    	</tr>
+          <tr>
+       		 <th>Uso</th>
+        	<td>Útil cuando deseamos proporcionar una estructura general y dejar que las clases hijas implementen detalles específicos.</td>
+          <td>Útil para especificar qué debe hacer una clase sin preocuparse por cómo se hace.</td>
+    	</tr>
+           <tr>
+       		 <th>Herencia multiple</th>
+        	<td>No admite múltiple herencia de clases.</td>
+          <td>Permite que una clase implemente varias interfaces.</td>
     	</tr>
 </table>
+      
+
 		
 	</section>
 
 </main>
 <aside>
+  <p>prueba</p>
 	<a>
 		<img alt="" src="">
 	</a> 
 	
 </aside>
-<body>
-</body>
+
+
 <footer>
-	<p>Contacto</p>
-        <p><a href="correo@example.com">correo</a></p>
-        <p>Redes:</p>
+	<h2>Contacto</h2>
+        <p>Correo electronico: <a href="correo@example.com">jaelsilva@gmail.com</a></p>
+        <p>Encuentranos en:</p>
         <ul>
             <li><a href="https://twitter.com/">Twitter</a></li>
             <li><a href="https://instagram.com/">Instagram</a></li>
+          <li><a href="https://facebook.com/">Facebook</a></li>
+         </ul>
 </footer>
+</body>
 </html>
