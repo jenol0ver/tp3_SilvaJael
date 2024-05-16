@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Formulario Cliente</title>
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="main">
+	<header>
+		<h1 style="text-align:center">Programacion Visual</h1> 
+ 	 <nav style="text-align:center">
+    	<a style="color: #EC949D" class="active" href="#introduccion">Introduccion Java</a>
+   		 <a style="color: #EC949D" href="#programacion">Programacion Java</a>
+    	<a style="color: #EC949D" href="#interfaces">Interfaces</a>
+ 	 </nav>
+	
+	</header>
+
+	<main>
+		<h1>Formulario de datos</h1>
+		<form action="">
+			<label for="dni">DNI: </label>
+			<input id="dni" type ="number" required placeholder="Ingrese Dnia" name="dni"></input><br>
+			<label for="nombre">Nombres: </label>
+			<input id="nombre" type ="text" required placeholder="Ingrese Nombre" name="nombre"></input><br>
+			<label for="apellido">Nombres: </label>
+			<input id="apellido" type ="text" required placeholder="Ingrese Apellido" name="apellido"></input><br>
+			<label for="fechanac">Fecha nacimiento: </label>
+			<input id="fechanac" type="date" required name="fechanac"><br>
+			<label for="generoM">Maculino: </label>
+			<input id="generoM" type="radio" value="Masculino" name="genero"><br>
+			<label for="generoF">Femenino: </label>
+			<input id="generoF" type="radio" value="Femenino" name="genero"><br>
+			<label for="generoX">X: </label>
+			<input id="generoX" type="radio" value="X" name="genero"><br>
+			<label for="correo">Correo electronico: </label>
+			<input id="correo" type="email" required="required" placeholder="Ingrese correo" name="correo"><br>
+			<label for="domicilio">Domicilio: </label>
+			<input id="domicilio" type="text" placeholder="Ingrese domicilio" name="domicilio" required><br>
+			<label for="provincia">Provincia: </label>
+			<select id="provincia" required="required" placeholder="Ingrese correo" name="correo">
+			<option value="Jjuy">Jujuy</option>
+			<option value="Salkta" selected>Salta</option>
+			<option value="Mendoza">Mendoza</option>
+			<option value="Jjuy">Jujuy</option>
+			
+			</select>			<br>
+			<label for="telefono">telefono: </label>
+			<input id="telefono" type ="number" required placeholder="Ingrese numero de telefono" name="telefono"></input><br>
+			<label >Categorias de interes </label>
+			<div>
+				<label for="futbol">Futbol</label>
+				<input id="futbol" type="checkbox" name="Intereses"><br>
+				<label for="DTURISMO">turismo</label>
+				<input id="TURISMO" type="checkbox" name="Intereses"><br>}
+				<label for="gastronomia">gastronomia</label>
+				<input id="gastronomia" type="checkbox" name="Intereses"><br>
+			</div>
+			<textarea id="sugerencias" placeholder="Ingrese Sugerencias" name="sugerencias" rows="8" cols="40"></textarea><br>
+			<label for="password" >Contraseña</label>
+			<input id="password" type="password" placeholder="Ingrese contraseña" name="password" minlength="6" required> <br>
+			<label for="password" >Confirmar Contraseña</label>
+			<input id="password" type="password" placeholder="Ingrese contraseña" name="password" min="6" required> <br>
+			<label for="t&c">Acepto Terminos y condiciones</label>
+				<input id="t&c" type="checkbox" name="t&c" required><br>
+				<label for="info">Recibir informacion relevante</label>
+				<input id="info" type="checkbox" name="info"><br>}
+				
+			
+			
+			<input type="submit" value="Guardar"><br>
+			<input type="button" value="Cancelar"><br>		
+		</form>
+	<footer>
+	<h2>Contacto</h2>
+        <p>Correo electronico: <a href="correo@example.com">jaelsilva@gmail.com</a></p>
+        <p>Encuentranos en:</p>
+        <ul>
+            <li><a href="https://twitter.com/">Twitter</a></li>
+            <li><a href="https://instagram.com/">Instagram</a></li>
+          <li><a href="https://facebook.com/">Facebook</a></li>
+         </ul>
+</footer>
+	</main>
+</body>
+</html>

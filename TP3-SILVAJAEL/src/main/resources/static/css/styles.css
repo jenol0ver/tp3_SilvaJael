@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+    body {
+            font-family: Arial, sans-serif;        
+        }
+    th{
+    background-color: pink;
+    }
+    
+    a{
+    color: #EC949D;
+    }
+    
+    footer{
+    	background-color:#EC949D
+    
+    }
+    
+    #nombre{
+    	background-color: pink
+    }
+    
+    .main{
+    	
+    	padding: 50px
+    }
+    
+    .aside{
+    
+    flex: 1;
+    padding: 5px;
+    
+    }
+    
+    .container{
+    	display: flex;
+    	flex-direction: row;
+    	width: 100%
+    
+    }
