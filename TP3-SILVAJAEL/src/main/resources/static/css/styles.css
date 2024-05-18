@@ -1,34 +1,60 @@
 @charset "UTF-8";
 
-    body {
-            font-family: Arial, sans-serif;        
-        }
+    body.index {
+            font-family: Arial, sans-serif;    
+            background-color: #f3eff5     
+        } 
+        
+    body.form {
+            font-family: Arial, sans-serif;
+            background-image: url("https://wallpapercave.com/wp/wp8100154.jpg"); 
+            backdrop-filter: blur(6px);
+        } 
+        
+    #fheader,#ffooter{
+   		max-width: 1000px;
+    	margin: 10px auto;
+ 		padding: 10px 20px;
+    	background-color: #f4f7f8;    	
+    	text-align: center;
+    	border-radius: 10px;
+    	
+    
+    }    
+    
+    a.active{
+    color: hotpink;
+    }
+        
+    h3.h3{
+		text-decoration: underline wavy pink;      
+    }
+    
     th{
     background-color: pink;
     }
     
-    a{
+    .pink{
     color: #EC949D;
     }
     
-    footer{
-    	background-color:#EC949D
-    
-    }
-    
-    #nombre{
-    	background-color: pink
-    }
     
     .main{
     	
-    	padding: 50px
+    	padding: 20px
+    }
+    
+    .centrar{
+    	
+    	text-align: center;
+    	width: 80%
+    
     }
     
     .aside{
     
     flex: 1;
-    padding: 5px;
+    padding: 10px;
     
     }
     
@@ -38,3 +64,102 @@
     	width: 100%
     
     }
+    
+    h2.rosa{
+    	background-color: #FFB6C1
+    	
+    }
+    
+    .gris{
+    	color:grey;
+    }
+
+form {
+  max-width: 1000px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #f4f7f8;
+  border-radius: 8px;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 95%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button.guardar {
+  padding: 19px 39px 18px 39px;
+  color: #fff;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+button.cancelar {
+  padding: 19px 39px 18px 39px;
+  color: #fff;
+  background-color: #ff8080;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+#ffooter{
+	
+	
+}
+
+
+
+  
