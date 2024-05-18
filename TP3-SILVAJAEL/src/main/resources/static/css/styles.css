@@ -2,7 +2,7 @@
 
     body.index {
             font-family: Arial, sans-serif;    
-            background-color: #f3eff5     
+            background-color:white;
         } 
         
     body.form {
@@ -18,9 +18,13 @@
     	background-color: #f4f7f8;    	
     	text-align: center;
     	border-radius: 10px;
-    	
+    } 
     
-    }    
+    #iheader{
+    	padding-right: 300px;
+    	text-align: center;
+    
+    }   
     
     a.active{
     color: hotpink;
